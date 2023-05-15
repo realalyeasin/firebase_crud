@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "160632616603",
-    "project_id": "word-6467c",
-    "storage_bucket": "word-6467c.appspot.com"
+    "project_number": "733853008214",
+    "firebase_url": "https://wupdate-d812a-default-rtdb.firebaseio.com",
+    "project_id": "wupdate-d812a",
+    "storage_bucket": "wupdate-d812a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:160632616603:android:9359626c479c4e4e1d383e",
+        "mobilesdk_app_id": "1:733853008214:android:e3df52743f9145d37556f7",
         "android_client_info": {
-          "package_name": "com.example.word_bank"
+          "package_name": "com.example.wonderTransfert"
         }
       },
       "oauth_client": [
         {
-          "client_id": "160632616603-ve7qrquiopogg4fq6gvip03al5ur2fss.apps.googleusercontent.com",
+          "client_id": "733853008214-7hptsjqjvbog9ncohddt8b2of06dnue2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBeUfQcuJI4E3pvZ6FNOJzv0nPNMsiUs-w"
+          "current_key": "AIzaSyAQyabESUYPAlNqyhA12HsoxYHCzyRk_tc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "160632616603-ve7qrquiopogg4fq6gvip03al5ur2fss.apps.googleusercontent.com",
+              "client_id": "733853008214-7hptsjqjvbog9ncohddt8b2of06dnue2.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "733853008214-6b59mn10cd8pmn99ogc2c3fla0qaknvo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.wonderTransfert"
+              }
             }
           ]
         }
