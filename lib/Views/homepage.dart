@@ -10,9 +10,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetBuilder<WordController>(
         init: WordController(),
-        initState: (_){},
-        builder: (wordController){
+        initState: (_){
+          // instead called on builder its way better performance to call the function here
           wordController.getData();
+        },
+        builder: (wordController){
           return Scaffold(
             appBar: AppBar(
               backgroundColor: Colors.yellow,
