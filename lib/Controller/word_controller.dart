@@ -3,7 +3,8 @@ import 'package:get/get.dart';
 import 'package:word_bank/Model/word_model.dart';
 
 class WordController extends GetxController{
-  var isLoading = false;
+  //since the loading by default should be true for fetch data
+  var isLoading = true;
   var wordList = <WordModel>[];
 
   Future<void> getData() async {
@@ -17,5 +18,7 @@ class WordController extends GetxController{
     } catch(e) {
       Get.snackbar('Error', '${e.toString()}');
     }
+    //Update controller loading state
+    update();
   }
 }
